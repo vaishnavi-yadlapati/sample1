@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background: none;
+    width: 100%;
+    height:100%;
+    background-image: url(./images/login_bg.png);
+    background-size:100% 120%;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+.forms {
+	margin: 30px auto;
+	max-width: 500px;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+}
+.forms h1 {
+	padding: 0 0 20px 0;
+	font-size: 26px;
+	color: #666;
+	font-weight: lighter;
+	text-align: center;
+}
+.forms form { padding: 30px; }
+#signup { display: none; }
+.forms .tab-group {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.forms .tab-group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.forms .tab-group li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	color: #888;
+	font-size: 16px;
+	margin-left: 30px;
+	letter-spacing: 1.5px;
+	float: left;
+	width: 25%;
+	text-align: center;
+	border-top: 3px solid transparent;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.forms .tab-group .active a {
+	color: #fff;
+	border-bottom: 3px solid red;
+}
+.forms input {
+    padding: 1em 1em 1em 1em;
+    font-size: 13px;
+    outline: none;
+    color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 22px;
+	   letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+	display: block;
+	width: 100%;
+	letter-spacing: 2px;
+	background-color: transparent;
+	border-radius: 22px;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.forms label {
+	font-size: 13px;
+	font-weight: normal;
+	color: #666;
+	font-weight: bolder;
+	letter-spacing: 2.5px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	margin-left: 13px;
+	display: block;
+}
+.forms .button {
+	border: 0;
+	outline: none;
+	border-radius: 22px;
+	padding: 13px 0;
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-weight: 300;
+	    font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+background-image: linear-gradient(to right,#B71C1C, #FF3D00);
+	color: #ffffff;
+	cursor: pointer;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.forms .button:hover, .button:focus { background:#B71C1C; }
+.text-p { text-align: right; margin-top: 15px;}
+.text-p a { color: grey;text-decoration: none;
+ margin-top: 10px;}

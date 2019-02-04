@@ -1,0 +1,15 @@
+.list_box{
+      width:100%;
+	  overflow:auto;
+	  margin:20px;
+	  padding:10px;
+	  border:2px;
+	  }
+.box{
+display:inline-block;
+width: 50%;
+float:left;
+margin:20px;
+padding:10px
+border:2px;
+}	  

@@ -1,0 +1,38 @@
+{
+  "name": "FUWDA",
+  "short_name": "FUWDA",
+  "start_url": "192.168.0.10/pwa/car/index.html",
+  "display": "standalone",
+  "theme_color": "#F00",
+  "background_color": "#000",
+  "description": "A simply readable Hacker News app.",
+  "icons": [{
+    "src": "images/F1.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "images/F2.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "images/F3.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "images/F4.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "images/F5.png",
+    "sizes": "192X192",
+    "type": "image/png"
+  }, {
+    "src": "images/F6.png",
+    "sizes": "512X512",
+    "type": "image/png"
+  }],
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+  }]
+}

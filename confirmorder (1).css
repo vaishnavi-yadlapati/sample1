@@ -1,0 +1,54 @@
+.button{
+	text-align: center;
+}
+h1{
+	color: #FF0000;
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+.btn_status {
+	border: 0;
+	outline: none;
+	border-radius: 22px;
+	padding: 13px 0;
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    background-image: linear-gradient(to right,#B71C1C, #FF3D00);
+	color: #ffffff;
+	cursor: pointer;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	width: 25%;
+}
+
+.btn_status:hover, .btn_status:focus { background:#B71C1C; }
+.btn_confirm{
+	border: 0;
+	outline: none;
+	border-radius: 22px;
+	padding: 13px 10px;
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    background-image: linear-gradient(to right,#B71C1C, #FF3D00);
+	color: #ffffff;
+	cursor: pointer;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	text-decoration: none;
+}
